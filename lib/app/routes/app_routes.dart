@@ -9,6 +9,10 @@ abstract class Routes {
   static const ONBOARD = _Paths.ONBOARD;
   static const DASHBOARD = _Paths.DASHBOARD;
   static const HOME = _Paths.HOME;
+  static const MARKET = _Paths.MARKET;
+  static const TRADE = _Paths.TRADE;
+  static const FUTURES = _Paths.FUTURES;
+  static const ASSETS = _Paths.ASSETS;
 }
 
 abstract class _Paths {
@@ -19,4 +23,8 @@ abstract class _Paths {
   static const ONBOARD = '/onboard';
   static const DASHBOARD = '/dashboard';
   static const HOME = '/home';
+  static const MARKET = '/market';
+  static const TRADE = '/trade';
+  static const FUTURES = '/futures';
+  static const ASSETS = '/assets';
 }

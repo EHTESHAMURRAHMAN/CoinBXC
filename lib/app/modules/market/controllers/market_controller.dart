@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class HomeController extends GetxController
+class MarketController extends GetxController
     with GetSingleTickerProviderStateMixin {
+  final tabs = ["Holding", "spot"];
   late TabController tabController;
-  final tabs = ["favourite", "Tranding", "Bullish", "Bearish", "New Listings"];
 
   @override
   void onInit() {

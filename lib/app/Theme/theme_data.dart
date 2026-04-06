@@ -49,6 +49,8 @@ ButtonStyle _buildElevatedButtonStyle() {
   );
 }
 
+Color buildCardColor = Color(0xffFFFFFF);
+
 ThemeData lightTheme() => ThemeData(
   colorScheme: ColorScheme.fromSeed(
     seedColor: kPrimaryColor,
@@ -56,9 +58,9 @@ ThemeData lightTheme() => ThemeData(
   ),
   brightness: Brightness.light,
   primaryColor: kPrimaryColor,
-  scaffoldBackgroundColor: const Color(0xfff0efe7),
+  scaffoldBackgroundColor: const Color(0xffF5F5F5),
 
-  canvasColor: const Color.fromARGB(255, 255, 250, 244),
+  canvasColor: const Color(0xffFFFFFF),
 
   cardColor: Colors.white70,
   drawerTheme: const DrawerThemeData(backgroundColor: Colors.white),

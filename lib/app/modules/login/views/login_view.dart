@@ -141,7 +141,9 @@ class LoginView extends GetView<LoginController> {
                 child: ElevatedButton(
                   onPressed: () {
                     final form = controller.loginFormKey.currentState;
-                    if (form?.validate() ?? false) {}
+                    if (form?.validate() ?? false) {
+                      Get.offAllNamed(Routes.DASHBOARD);
+                    }
                   },
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
